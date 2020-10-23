@@ -1,7 +1,7 @@
 package com.neevin.pokemons;
 
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
+import ru.ifmo.se.pokemon.*;
+import com.neevin.moves.*;
 
 public class Snubbull extends Pokemon {
     public Snubbull(String name, int level){
@@ -21,6 +21,6 @@ public class Snubbull extends Pokemon {
 
         setType(Type.FAIRY);
 
-        //setMove();
+        setMove(new WildChargeMove(), new ThunderboltMove(), new SludgeBombMove());
     }
 }

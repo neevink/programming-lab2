@@ -1,6 +1,6 @@
 package com.neevin.pokemons;
 
-import ru.ifmo.se.pokemon.Pokemon;
+import ru.ifmo.se.pokemon.*;
 
 public class Bellsprout extends Pokemon {
     public Bellsprout(String name, int level){

@@ -1,11 +1,7 @@
 package com.neevin.pokemons;
 
-import com.neevin.moves.DoubleEdgeMove;
-import com.neevin.moves.DoubleTeamMove;
-import com.neevin.moves.IceBeamMove;
-import com.neevin.moves.ThunderWaveMove;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
+import com.neevin.moves.*;
+import ru.ifmo.se.pokemon.*;
 
 public class Miltank extends Pokemon {
     public Miltank(String name, int level){

@@ -1,5 +1,7 @@
 package com.neevin.pokemons;
 
+import com.neevin.moves.*;
+
 public class Granbull extends Snubbull {
     public Granbull(String name, int level){
         super(name, level);
@@ -16,6 +18,6 @@ public class Granbull extends Snubbull {
         //Granbull min level = 23
         setLevel(level >= 23 ? level : 23);
 
-        //addMove();
+        addMove(new StoneEdgeMove());
     }
 }

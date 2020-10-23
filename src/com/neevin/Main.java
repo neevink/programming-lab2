@@ -6,12 +6,14 @@ import ru.ifmo.se.pokemon.*;
 public class Main {
 
     public static void main(String[] args) {
-        Battle b = new Battle();
-        Pokemon p1 = new Miltank("Сиськастый", 1);
-        Pokemon p2 = new Pokemon("Ноунейм", 1);
-        b.addAlly(p1);
-        b.addFoe(p2);
-        b.go();
+        Battle battle = new Battle();
+        Pokemon siskastiy = new Miltank("Сиськастый", 1);
+        Pokemon puppy = new Snubbull("Щенок", 1);
+        Pokemon dog = new Granbull("Пёс", 23);
+        battle.addAlly(siskastiy);
+        //battle.addAlly(puppy);
+        battle.addFoe(dog);
+        battle.go();
     }
 }
 /*
