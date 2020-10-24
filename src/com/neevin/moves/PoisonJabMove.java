@@ -22,6 +22,5 @@ public class PoisonJabMove extends PhysicalMove {
         if(Helper.getChance(30)){
             Effect.poison(attacked);
         }
-
     }
 }

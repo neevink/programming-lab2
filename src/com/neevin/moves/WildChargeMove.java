@@ -1,4 +1,3 @@
-//work
 package com.neevin.moves;
 
 import ru.ifmo.se.pokemon.*;

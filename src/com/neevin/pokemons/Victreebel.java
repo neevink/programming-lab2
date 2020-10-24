@@ -12,11 +12,7 @@ public class Victreebel extends Weepinbell {
                 specialAttack = 100,
                 specialDefense = 70,
                 speed = 70;
-
         setStats(hp, attack, defense, specialAttack, specialDefense, speed);
-
-        //Victreebel min level 21
-        setLevel(level >= 21 ? level : 21);
 
         addMove(new DoubleTeamMove());
     }

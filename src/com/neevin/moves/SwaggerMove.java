@@ -15,6 +15,8 @@ public class SwaggerMove extends StatusMove {
 
     @Override
     protected void applyOppEffects(Pokemon pokemon){
-        Effect.confuse(pokemon); // ????????
+        //Сбивает цель с толку и увеличивает ее атаку на два уровня.
+        pokemon.setMod(Stat.ATTACK, 2);
+        Effect.confuse(pokemon);
     }
 }

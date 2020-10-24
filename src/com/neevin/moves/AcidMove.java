@@ -20,7 +20,7 @@ public class AcidMove extends SpecialMove {
 
         // Может понизить особую защиту атакованного покемона на одну степень с вероятностью 10%
         if(Helper.getChance(10)){
-            attacked.setMod(Stat.SPECIAL_DEFENSE, (int)attacked.getStat(Stat.SPECIAL_DEFENSE) - 1);
+            attacked.setMod(Stat.SPECIAL_DEFENSE, -1);
         }
     }
 }

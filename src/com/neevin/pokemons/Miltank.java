@@ -6,6 +6,7 @@ import ru.ifmo.se.pokemon.*;
 public class Miltank extends Pokemon {
     public Miltank(String name, int level){
         super(name, level);
+        setType(Type.NORMAL);
 
         double hp = 95,
                 attack = 80,
@@ -13,10 +14,7 @@ public class Miltank extends Pokemon {
                 specialAttack = 40,
                 specialDefense = 70,
                 speed = 100;
-
         setStats(hp, attack, defense, specialAttack, specialDefense, speed);
-
-        setType(Type.NORMAL);
 
         setMove(new DoubleTeamMove(), new DoubleEdgeMove(), new ThunderWaveMove(), new IceBeamMove());
     }

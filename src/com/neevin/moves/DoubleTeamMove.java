@@ -1,4 +1,3 @@
-//Abs done
 package com.neevin.moves;
 
 import ru.ifmo.se.pokemon.*;
@@ -17,6 +16,6 @@ public class DoubleTeamMove extends StatusMove {
     @Override
     protected void applySelfEffects(Pokemon attacking) {
         // Увеличивает уклончивость атакующего покемона на один пункт
-        attacking.setMod(Stat.EVASION, (int)attacking.getStat(Stat.EVASION) + 1);
+        attacking.setMod(Stat.EVASION, 1);
     }
 }
