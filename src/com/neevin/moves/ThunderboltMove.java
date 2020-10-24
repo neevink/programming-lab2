@@ -12,7 +12,7 @@ public class ThunderboltMove extends SpecialMove {
 
     @Override
     protected String describe() {
-        return "вызывает удар грома";
+        return "вызывает громовой удар";
     }
 
     @Override

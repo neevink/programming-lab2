@@ -14,7 +14,7 @@ public class StoneEdgeMove extends PhysicalMove {
 
     @Override
     protected String describe() {
-        return "использует способность \"Каменный век\"";
+        return "кадет камень в противника";
     }
 
     @Override

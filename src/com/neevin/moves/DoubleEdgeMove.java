@@ -11,7 +11,7 @@ public class DoubleEdgeMove extends PhysicalMove{
 
     @Override
     protected String describe() {
-        return "совершает двоекрайнюю атаку";
+        return "совершает удрар двойным лезвием";
     }
 
     @Override

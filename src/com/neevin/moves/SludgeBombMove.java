@@ -12,7 +12,7 @@ public class SludgeBombMove extends SpecialMove {
 
     @Override
     protected String describe() {
-        return "кидает грязную бомбу";
+        return "кидает грязевую бомбу";
     }
 
     @Override
